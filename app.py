@@ -1,6 +1,7 @@
 #!flask/bin/python
 #export OTEL_SERVICE_NAME=photogallery-web
 #opentelemetry-instrument --traces_exporter jaeger_thrift python3 app.py
+#git commit -m “Updating image title”
 from flask import Flask, jsonify, abort, request, make_response, url_for
 from flask import render_template, redirect
 import os    
